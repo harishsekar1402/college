@@ -138,6 +138,7 @@ footer{
     width: auto;
     background-color: var(--primary);
 }
+/*-------Banner-------*/
 .container-1{
     position: relative;
     margin-top: 100px;
@@ -204,7 +205,12 @@ footer{
     width: 300px;
     transition :height .3s,width .3s;
     border-radius: 20px;
-    border: 2px solid rgb(0, 0, 0);
+}
+.bus .img{
+    border: 2px solid white;
+}
+.hostel .img{
+    border: 2px solid var(--primary);
 }
 
 .img:hover{
